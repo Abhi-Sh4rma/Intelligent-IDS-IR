@@ -1,0 +1,23 @@
+[
+    {
+        "alert_id": "749c38bb-3c57-4636-848e-e7b2a0c5108e",
+        "timestamp": "2026-01-12T08:59:43.266212",
+        "rule": "Multiple Failed Logins in Time Window",
+        "entity_type": "user",
+        "entity": "SentinelSOC-Win10",
+        "details": {
+            "failed_attempts": 6,
+            "time_window_minutes": 10,
+            "post_compromise_login": true,
+            "last_activity_time": "2026-01-12 14:25:28"
+        },
+        "status": "open",
+        "severity": "Critical",
+        "risk_score": 90,
+        "recommended_response": [
+            "Immediate investigation required",
+            "Consider temporary account lock",
+            "Escalate to security incident response team"
+        ]
+    }
+]
